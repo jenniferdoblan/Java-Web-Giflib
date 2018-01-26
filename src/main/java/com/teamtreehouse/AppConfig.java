@@ -4,5 +4,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 @EnableAutoConfiguration
 public class AppConfig {
-   ls
+    public static void main(String[] args){
+        SpringApplication.run(AppConfig.class,args);
+    }
 }
